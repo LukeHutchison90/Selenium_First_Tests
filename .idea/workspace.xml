@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="037d360f-c5bf-4d77-8156-08bb423c48e2" name="Default Changelist" comment="" />
+    <list default="true" id="037d360f-c5bf-4d77-8156-08bb423c48e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FailtoLoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AmazonLoginFailure.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +19,9 @@
     <option name="autoscrollToSource" value="true" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +30,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1junjI1qKoB0Ak4EoiyeGKuNMZB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,13 +38,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Selenium_Server/selenium-server-standalone-3.141.59.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AmazonLoginFailure.test2">
+    <configuration name="AmazonLoginFailure.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_First_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AmazonLoginFailure" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FailtoLoginTest.failtoLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium_First_Project" />
       <option name="PACKAGE_NAME" value="" />
@@ -46,8 +66,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRun2Test.testRun2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_First_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRun2Test" />
+      <option name="METHOD_NAME" value="testRun2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AmazonLoginFailure.test2" />
+        <item itemvalue="JUnit.TestRun2Test.testRun2" />
         <item itemvalue="JUnit.FailtoLoginTest.failtoLogin" />
       </list>
     </recent_temporary>
@@ -63,7 +95,19 @@
       <option name="presentableId" value="Default" />
       <updated>1604662977315</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;2nd Test added, which runs to login page before failing.&quot;">
+      <created>1604674712595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604674712595</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;2nd Test added, which runs to login page before failing.&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;2nd Test added, which runs to login page before failing.&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="182" key="#Project_Structure" timestamp="1604663742885">
@@ -74,26 +118,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="683" y="209" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604670007993" />
+    <state x="502" y="114" key="CommitChangelistDialog2" timestamp="1604676016022">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="502" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604676016022" />
     <state x="746" y="274" key="FileChooserDialogImpl" timestamp="1604670127568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="746" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604670127568" />
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1604672743170">
+    <state width="912" height="279" key="GridCell.Tab.0.bottom" timestamp="1604676016042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604672743170" />
-    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1604672743170">
+    <state width="912" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604676016042" />
+    <state width="912" height="279" key="GridCell.Tab.0.center" timestamp="1604676016042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604672743170" />
-    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1604672743170">
+    <state width="912" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604676016042" />
+    <state width="912" height="279" key="GridCell.Tab.0.left" timestamp="1604676016042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604672743170" />
-    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1604672743170">
+    <state width="912" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604676016042" />
+    <state width="912" height="279" key="GridCell.Tab.0.right" timestamp="1604676016042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604672743170" />
+    <state width="912" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604676016042" />
     <state x="498" y="175" key="Maven.ArtifactSearchDialog" timestamp="1604664164210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
