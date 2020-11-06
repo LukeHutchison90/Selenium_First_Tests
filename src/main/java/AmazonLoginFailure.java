@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.HashMap;
 import java.util.Map;
-public class Test2Test {
+public class AmazonLoginFailure {
   private WebDriver driver;
   private Map<String, Object> vars;
   JavascriptExecutor js;
@@ -28,7 +28,7 @@ public class Test2Test {
     driver.quit();
   }
   @Test
-  public void test2() {
+  public void FailstoLogin() {
     driver.get("https://www.amazon.co.uk/");
     driver.manage().window().setSize(new Dimension(1936, 1056));
     {
@@ -37,12 +37,16 @@ public class Test2Test {
       builder.moveToElement(element).perform();
     }
     {
-      WebDriverWait wait = new WebDriverWait(driver, 300);
+      WebDriverWait wait = new WebDriverWait(driver, 10);
       wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#nav-flyout-ya-signin .nav-action-inner")));
     }
     driver.findElement(By.cssSelector("#nav-flyout-ya-signin .nav-action-inner")).click();
     driver.findElement(By.id("ap_email")).sendKeys("test");
     driver.findElement(By.cssSelector(".a-button-inner > #continue")).click();
-    Assert.assertTrue(driver.findElement(By.cssSelector(".a-alert-heading")).getText() == "There was a problem");
+    {
+      WebDriverWait wait = new WebDriverWait(driver, 10);
+      wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#auth-error-message-box > .a-box-inner")));
+    }
+    Assert.assertTrue(driver.findElement(By.cssSelector(".a-alert-heading")).getText().equals("There was a problem"));
   }
 }
